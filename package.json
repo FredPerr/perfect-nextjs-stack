@@ -9,7 +9,8 @@
     "lint": "next lint",
     "format": "pnpm exec prettier . --write",
     "prepare": "husky install",
-    "commitlint": "commitlint --edit"
+    "commitlint": "commitlint --edit",
+    "test": "vitest --passWithNoTests"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^13.4.12",
@@ -35,7 +36,8 @@
     "eslint-config-prettier": "^8.9.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
-    "prettier": "3.0.0"
+    "prettier": "3.0.0",
+    "vitest": "^0.34.1"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
