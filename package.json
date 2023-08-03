@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "pnpm exec prettier . --write"
+    "format": "pnpm exec prettier . --write",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@types/node": "20.4.6",
@@ -28,5 +29,8 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "prettier": "3.0.0"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
