@@ -1,5 +1,12 @@
 {
-  "name": "fredericperronca",
+  "name": "fredericperron.ca website",
+  "description": "Personal branding and blog website",
+  "homepage": "https://fredericperron.ca",
+  "bugs": {
+    "url": "https://github.com/FredPerr/fredericperron/issues",
+    "email": "frederic.perr@gmail.com"
+  },
+  "author": "Frederic Perron <frederic.perr@gmail.com> (https://fredericperron.ca)",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -44,5 +51,9 @@
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
-  }
+  },
+  "engines": {
+    "node": ">=20.5.0"
+  },
+  "packageManager": "pnpm@^8.6.7"
 }
