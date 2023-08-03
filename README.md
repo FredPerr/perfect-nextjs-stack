@@ -1,6 +1,6 @@
-# Perfect Next.js Stack
+# Perfect Next.js Stack (PNS) for small and medium projects
 
-For small and medium projects
+Not the greatest acronym, but that's what it comes to.
 
 ## Getting Started
 

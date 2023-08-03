@@ -1,11 +1,11 @@
 {
-  "name": "fredericperron.ca website",
-  "description": "Personal branding and blog website",
-  "homepage": "https://fredericperron.ca",
+  "name": "Perfect Next.js Stack",
+  "description": "Best stack for small and medium projects",
+  "homepage": "https://github.com/FredPerr/pns-stack-template",
   "author": "Frederic Perron <frederic.perr@gmail.com> (https://fredericperron.ca)",
   "version": "0.1.0",
   "bugs": {
-    "url": "https://github.com/FredPerr/fredericperron/issues",
+    "url": "https://github.com/FredPerr/pns-stack-template/issues",
     "email": "frederic.perr@gmail.com"
   },
   "private": true,
