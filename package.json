@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "format": "pnpm exec prettier . --write",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commitlint": "commitlint --edit"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^13.4.12",
@@ -29,6 +30,8 @@
     "zod": "^3.21.4"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
     "eslint-config-prettier": "^8.9.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
