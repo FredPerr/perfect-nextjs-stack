@@ -26,6 +26,17 @@ and you can test in **UI** mode with:
 
 `pnpm e2e:ui`
 
+### Database
+
+Databases are managed by Prisma and the default provider is mysql.
+
+You can edit the `schema.prisma` file and make your first migration with the following command:
+`npx prisma migrate dev --name init`
+
+See the [Official Prisma Quickstart](https://www.prisma.io/docs/getting-started/quickstart) for more details
+
+You can also see this page for more information on [how to use Prisma in your Next.js app](https://www.prisma.io/nextjs)
+
 ## Workflow
 
 ### Formatting and linting
